@@ -2,6 +2,7 @@ package net.kai.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.kai.tutorialmod.block.ModBlocks;
 import net.kai.tutorialmod.item.ModItemGroups;
 import net.kai.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
@@ -16,5 +17,6 @@ public class TutorialMod implements ModInitializer {
 		LOGGER.info("sup bitches");
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	} //yea
 }
