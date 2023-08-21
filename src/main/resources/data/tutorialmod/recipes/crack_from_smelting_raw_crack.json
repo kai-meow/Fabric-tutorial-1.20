@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 50,
+  "experience": 0.8,
+  "group": "crack",
+  "ingredient": {
+    "item": "tutorialmod:raw_crack"
+  },
+  "result": "tutorialmod:crack"
+}
