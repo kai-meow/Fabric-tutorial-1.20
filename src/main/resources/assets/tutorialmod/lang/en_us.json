@@ -4,6 +4,10 @@
 
   "block.tutorialmod.crack_block": "Fuckload of Crack",
   "block.tutorialmod.raw_crack_block": "Solid Crack",
+  "block.tutorialmod.crack_ore": "Crack Ore",
+  "block.tutorialmod.deepslate_crack_ore": "Deepslate Crack Ore",
+  "block.tutorialmod.nether_crack_ore": "Nether Crack Ore",
+  "block.tutorialmod.end_stone_crack_ore": "End Stone Crack Ore",
 
   "itemgroup.crack": "Assorted shit"
 }

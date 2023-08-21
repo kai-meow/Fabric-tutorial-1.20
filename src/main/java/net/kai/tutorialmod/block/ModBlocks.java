@@ -5,12 +5,14 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.kai.tutorialmod.TutorialMod;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
     public static final Block CRACK_BLOCK = registerBlock("crack_block",
@@ -18,6 +20,22 @@ public class ModBlocks {
 
     public static final Block RAW_CRACK_BLOCK = registerBlock("raw_crack_block",
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK).sounds(BlockSoundGroup.SCAFFOLDING)));
+
+
+
+    public static final Block CRACK_ORE = registerBlock("crack_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(1.0f), UniformIntProvider.create(2, 5)));
+
+    public static final Block DEEPSLATE_CRACK_ORE = registerBlock("deepslate_crack_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE).strength(2.0f), UniformIntProvider.create(2, 5)));
+
+    public static final Block NETHER_CRACK_ORE = registerBlock("nether_crack_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).strength(0.7f), UniformIntProvider.create(2, 5)));
+
+    public static final Block END_STONE_CRACK_ORE = registerBlock("end_stone_crack_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(3.0f), UniformIntProvider.create(4, 7)));
+
+
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

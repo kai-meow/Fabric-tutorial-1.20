@@ -21,6 +21,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CRACK_BLOCK);
                         entries.add(ModBlocks.RAW_CRACK_BLOCK);
 
+                        entries.add(ModBlocks.CRACK_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_CRACK_ORE);
+                        entries.add(ModBlocks.NETHER_CRACK_ORE);
+                        entries.add(ModBlocks.END_STONE_CRACK_ORE);
+
                         entries.add(Items.FURNACE);
                         entries.add(Items.COAL_BLOCK);
                     }).build());
