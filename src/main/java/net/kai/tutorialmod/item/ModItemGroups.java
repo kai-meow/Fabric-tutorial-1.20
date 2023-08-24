@@ -16,6 +16,7 @@ public class ModItemGroups {
             new Identifier(TutorialMod.MOD_ID, "crack"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.crack"))
                     .icon(() -> new ItemStack(ModItems.CRACK)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModItems.CRACK);
                         entries.add(ModItems.RAW_CRACK);
                         entries.add(ModBlocks.CRACK_BLOCK);

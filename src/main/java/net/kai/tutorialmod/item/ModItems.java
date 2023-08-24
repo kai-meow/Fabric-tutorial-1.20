@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.kai.tutorialmod.TutorialMod;
+import net.kai.tutorialmod.item.custom.MetalDetectorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -14,7 +15,10 @@ public class ModItems {
     public static final Item CRACK = registerItem("crack", new Item(new FabricItemSettings())); //all lowercase, no spaces
     public static final Item RAW_CRACK = registerItem("raw_crack", new Item(new FabricItemSettings()));
 
-    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){ //adicionar os itens na aba do creative
+    public static final Item METAL_DETECTOR = registerItem("metal_detector",
+            new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
+
+    private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){ //adicionar os itens na aba de ingredientes do creative
         entries.add(CRACK);
         entries.add(RAW_CRACK);
     }

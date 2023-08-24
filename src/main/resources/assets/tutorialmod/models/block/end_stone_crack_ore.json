@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "tutorialmod:block/crack_ore"
+    "all": "tutorialmod:block/end_stone_crack_ore"
   }
 }
