@@ -23,7 +23,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK).sounds(BlockSoundGroup.SCAFFOLDING)));
 
     public static final Block SOUND_BLOCK = registerBlock("sound_block",
-            new SoundBlock(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK)));
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
 
 
 
