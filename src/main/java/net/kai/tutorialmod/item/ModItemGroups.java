@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModItems.CRACK);
                         entries.add(ModItems.RAW_CRACK);
+                        entries.add(ModItems.TINY_KAI);
                         entries.add(ModBlocks.CRACK_BLOCK);
                         entries.add(ModBlocks.RAW_CRACK_BLOCK);
 
