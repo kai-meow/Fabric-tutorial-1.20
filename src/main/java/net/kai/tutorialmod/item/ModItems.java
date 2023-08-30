@@ -19,6 +19,8 @@ public class ModItems {
             new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
 
     public static final Item TINY_KAI = registerItem("tiny_kai", new Item(new FabricItemSettings().food(ModFoodComponents.TINY_KAI)));
+    public static final Item EVIDENCE = registerItem("evidence",
+            new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){ //adicionar os itens na aba de ingredientes do creative
         entries.add(CRACK);

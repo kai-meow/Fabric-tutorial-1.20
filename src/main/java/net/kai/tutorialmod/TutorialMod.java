@@ -2,6 +2,7 @@ package net.kai.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.kai.tutorialmod.block.ModBlocks;
 import net.kai.tutorialmod.item.ModItemGroups;
 import net.kai.tutorialmod.item.ModItems;
@@ -16,7 +17,10 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("sup bitches");
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.EVIDENCE, 200);
 	} //yea
 }

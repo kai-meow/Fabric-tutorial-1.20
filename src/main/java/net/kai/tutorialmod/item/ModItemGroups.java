@@ -20,6 +20,8 @@ public class ModItemGroups {
                         entries.add(ModItems.CRACK);
                         entries.add(ModItems.RAW_CRACK);
                         entries.add(ModItems.TINY_KAI);
+                        entries.add(ModItems.EVIDENCE);
+
                         entries.add(ModBlocks.CRACK_BLOCK);
                         entries.add(ModBlocks.RAW_CRACK_BLOCK);
 

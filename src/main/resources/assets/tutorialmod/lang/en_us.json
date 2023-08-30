@@ -3,6 +3,7 @@
   "item.tutorialmod.raw_crack": "Raw Crack",
   "item.tutorialmod.metal_detector": "Metal Detector",
   "item.tutorialmod.tiny_kai": "Micro Kai",
+  "item.tutorialmod.evidence": "The Evidence",
 
   "block.tutorialmod.crack_block": "Fuckload of Crack",
   "block.tutorialmod.raw_crack_block": "Solid Crack",
@@ -11,6 +12,8 @@
   "block.tutorialmod.nether_crack_ore": "Nether Crack Ore",
   "block.tutorialmod.end_stone_crack_ore": "End Stone Crack Ore",
   "block.tutorialmod.sound_block": "Sound Block",
+
+  "tooltip.tutorialmod.metal_detector.tooltip": "Helps you find metals and even diamonds! Just don't bang it up too much...",
 
   "itemgroup.crack": "Assorted shit"
 }
