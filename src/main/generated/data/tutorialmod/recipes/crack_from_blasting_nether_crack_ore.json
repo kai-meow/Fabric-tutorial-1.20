@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 50,
+  "experience": 0.7,
+  "group": "crack",
+  "ingredient": {
+    "item": "tutorialmod:nether_crack_ore"
+  },
+  "result": "tutorialmod:crack"
+}

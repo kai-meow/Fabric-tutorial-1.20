@@ -1,0 +1,7 @@
+// 1.20.1	2023-09-04T19:34:06.255958209	Tutorial mod/Tags for minecraft:block
+f95b3ecadc99f0e547767e6443ddff9615c8e471 data/minecraft/tags/blocks/needs_iron_tool.json
+0562d75755560237f334202df18547bd0ffa1c7f data/minecraft/tags/blocks/needs_diamond_tool.json
+9b697e264ed79497f90f790b5b38146f312bdd3e data/tutorialmod/tags/blocks/metal_detector_detectable_blocks.json
+4eac1867af8eee581ca64b7106968ba75521fbfe data/fabric/tags/blocks/needs_tool_level_4.json
+36b7102704339a8e90a37e1f3f9754718dd4373e data/minecraft/tags/blocks/needs_stone_tool.json
+2a115675af60a2726609e804287afdc932db85ce data/minecraft/tags/blocks/mineable/pickaxe.json

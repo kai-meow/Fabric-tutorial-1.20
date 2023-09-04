@@ -1,0 +1,8 @@
+// 1.20.1	2023-09-04T19:34:06.254758428	Tutorial mod/Block Loot Tables
+2e29d0ef7450ea867a3c371598cddc39bcb36387 data/tutorialmod/loot_tables/blocks/end_stone_crack_ore.json
+f957b53a1c4ee8643e69afbfd19b37293a82fb60 data/tutorialmod/loot_tables/blocks/deepslate_crack_ore.json
+dbf8795b6a00d50e1a71433fec4b44f3b22c43df data/tutorialmod/loot_tables/blocks/crack_block.json
+9663ebc368fa70aa2c71b085209cd0cef98e0ac7 data/tutorialmod/loot_tables/blocks/raw_crack_block.json
+cc949d0a6d37d42537b3f6a8856eca6dfd258e66 data/tutorialmod/loot_tables/blocks/sound_block.json
+4aea61c2fccdd83405de3377a17d56ac88a0c8e9 data/tutorialmod/loot_tables/blocks/crack_ore.json
+5e9b99b54c0ba36130f5ca8cde7439eb2442b00a data/tutorialmod/loot_tables/blocks/nether_crack_ore.json
