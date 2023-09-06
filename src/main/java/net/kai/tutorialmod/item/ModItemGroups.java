@@ -33,6 +33,16 @@ public class ModItemGroups {
 
                         entries.add(Items.FURNACE);
                         entries.add(Items.COAL_BLOCK);
+
+                        entries.add(ModBlocks.CRACK_DOOR);
+                        entries.add(ModBlocks.CRACK_TRAPDOOR);
+                        entries.add(ModBlocks.CRACK_STAIRS);
+                        entries.add(ModBlocks.CRACK_SLAB);
+                        entries.add(ModBlocks.CRACK_BUTTON);
+                        entries.add(ModBlocks.CRACK_PRESSURE_PLATE);
+                        entries.add(ModBlocks.CRACK_FENCE);
+                        entries.add(ModBlocks.CRACK_FENCE_GATE);
+                        entries.add(ModBlocks.CRACK_WALL);
                     }).build());
     public static void registerItemGroups() {
         TutorialMod.LOGGER.info("Resgister Item Groups for "+TutorialMod.MOD_ID);

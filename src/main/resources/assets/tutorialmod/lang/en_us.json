@@ -13,6 +13,16 @@
   "block.tutorialmod.end_stone_crack_ore": "End Stone Crack Ore",
   "block.tutorialmod.sound_block": "Sound Block",
 
+  "block.tutorialmod.crack_stairs": "Crack Stairs",
+  "block.tutorialmod.crack_slab": "Crack Slab",
+  "block.tutorialmod.crack_button": "Crack Button",
+  "block.tutorialmod.crack_pressure_plate": "Crack Pressure Plate",
+  "block.tutorialmod.crack_fence": "Crack Fence",
+  "block.tutorialmod.crack_fence_gate": "Crack Fence Gate",
+  "block.tutorialmod.crack_wall": "Crack Wall",
+  "block.tutorialmod.crack_door": "Crack Door",
+  "block.tutorialmod.crack_trapdoor": "Crack Trapdoor",
+
   "tooltip.tutorialmod.metal_detector.tooltip": "Helps you find metals and even diamonds! Just don't bang it up too much...",
 
   "itemgroup.crack": "Assorted shit"

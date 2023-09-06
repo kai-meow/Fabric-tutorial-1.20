@@ -15,13 +15,24 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRACK_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool crackPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CRACK_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_CRACK_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRACK_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_CRACK_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_CRACK_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_CRACK_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOUND_BLOCK);
+
+        crackPool.stairs(ModBlocks.CRACK_STAIRS);
+        crackPool.slab(ModBlocks.CRACK_SLAB);
+        crackPool.button(ModBlocks.CRACK_BUTTON);
+        crackPool.pressurePlate(ModBlocks.CRACK_PRESSURE_PLATE);
+        crackPool.fence(ModBlocks.CRACK_FENCE);
+        crackPool.fenceGate(ModBlocks.CRACK_FENCE_GATE);
+        crackPool.wall(ModBlocks.CRACK_WALL);
+
+        blockStateModelGenerator.registerDoor(ModBlocks.CRACK_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.CRACK_TRAPDOOR);
     }
 
     @Override

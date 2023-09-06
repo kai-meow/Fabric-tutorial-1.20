@@ -4,9 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.kai.tutorialmod.TutorialMod;
 import net.kai.tutorialmod.block.custom.SoundBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -24,6 +22,38 @@ public class ModBlocks {
 
     public static final Block SOUND_BLOCK = registerBlock("sound_block",
             new SoundBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+
+
+
+    public static final Block CRACK_STAIRS = registerBlock("crack_stairs",
+            new StairsBlock(ModBlocks.CRACK_BLOCK.getDefaultState() , FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+
+    public static final Block CRACK_SLAB = registerBlock("crack_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+
+
+    public static final Block CRACK_BUTTON = registerBlock("crack_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.IRON, 10, true));
+
+    public static final Block CRACK_PRESSURE_PLATE = registerBlock("crack_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.IRON));
+
+
+    public static final Block CRACK_FENCE = registerBlock("crack_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+
+    public static final Block CRACK_FENCE_GATE = registerBlock("crack_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), WoodType.BAMBOO));
+
+    public static final Block CRACK_WALL = registerBlock("crack_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+
+
+    public static final Block CRACK_DOOR = registerBlock("crack_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).nonOpaque(), BlockSetType.IRON)); //.nonOpaque() necessario para transparencia
+
+    public static final Block CRACK_TRAPDOOR = registerBlock("crack_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).nonOpaque(), BlockSetType.IRON));
 
 
 

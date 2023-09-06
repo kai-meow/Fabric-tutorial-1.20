@@ -27,6 +27,18 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RAW_CRACK_BLOCK);
         addDrop(ModBlocks.SOUND_BLOCK);
 
+        addDrop(ModBlocks.CRACK_STAIRS);
+        addDrop(ModBlocks.CRACK_TRAPDOOR);
+        addDrop(ModBlocks.CRACK_WALL);
+        addDrop(ModBlocks.CRACK_FENCE);
+        addDrop(ModBlocks.CRACK_FENCE_GATE);
+        addDrop(ModBlocks.CRACK_BUTTON);
+        addDrop(ModBlocks.CRACK_PRESSURE_PLATE);
+
+        addDrop(ModBlocks.CRACK_DOOR, doorDrops(ModBlocks.CRACK_DOOR));
+        addDrop(ModBlocks.CRACK_SLAB, slabDrops(ModBlocks.CRACK_SLAB));
+
+
         addDrop(ModBlocks.CRACK_ORE, copperLikeOreDrops(ModBlocks.CRACK_ORE, ModItems.RAW_CRACK));  // oreDrops pra ser uma ore normal com só 1 drop :3
         addDrop(ModBlocks.DEEPSLATE_CRACK_ORE, copperLikeOreDrops(ModBlocks.DEEPSLATE_CRACK_ORE, ModItems.RAW_CRACK));
         addDrop(ModBlocks.END_STONE_CRACK_ORE, copperLikeOreDrops(ModBlocks.END_STONE_CRACK_ORE, ModItems.RAW_CRACK));
