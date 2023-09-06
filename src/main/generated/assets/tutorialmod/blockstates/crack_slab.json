@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorialmod:block/crack_slab"
+    },
+    "type=double": {
+      "model": "tutorialmod:block/crack_block"
+    },
+    "type=top": {
+      "model": "tutorialmod:block/crack_slab_top"
+    }
+  }
+}
