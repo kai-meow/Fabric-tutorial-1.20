@@ -22,6 +22,9 @@ public class ModItems {
     public static final Item EVIDENCE = registerItem("evidence",
             new Item(new FabricItemSettings()));
 
+    public static final Item STUPID_GUN = registerItem("stupid_gun",
+            new Item(new FabricItemSettings().maxCount(1)));
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){ //adicionar os itens na aba de ingredientes do creative
         entries.add(CRACK);
         entries.add(RAW_CRACK);
