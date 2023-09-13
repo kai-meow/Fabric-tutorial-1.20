@@ -1,11 +1,11 @@
-// 1.20.1	2023-09-06T18:19:00.228336441	Tutorial mod/Block Loot Tables
+// 1.20.1	2023-09-13T17:57:19.13962609	Tutorial mod/Block Loot Tables
 9b7e42f9f1472321be22bb00385ba3817243c40f data/tutorialmod/loot_tables/blocks/crack_wall.json
 28ca93c7453264368c48fe2cc3494fa49d7a5b2b data/tutorialmod/loot_tables/blocks/crack_button.json
 cc949d0a6d37d42537b3f6a8856eca6dfd258e66 data/tutorialmod/loot_tables/blocks/sound_block.json
 ceee238eaa5e61d9631437e48fe39cb581aa10a8 data/tutorialmod/loot_tables/blocks/crack_fence.json
 16a05d5b0abdcb50b3f98396973ce791c468bc76 data/tutorialmod/loot_tables/blocks/crack_pressure_plate.json
-5e9b99b54c0ba36130f5ca8cde7439eb2442b00a data/tutorialmod/loot_tables/blocks/nether_crack_ore.json
 36c46d8a531d70cb007ba8e4c503033e6bf81aaa data/tutorialmod/loot_tables/blocks/crack_stairs.json
+5e9b99b54c0ba36130f5ca8cde7439eb2442b00a data/tutorialmod/loot_tables/blocks/nether_crack_ore.json
 91416f959c80acd520b82c88a1a322b57e8dc171 data/tutorialmod/loot_tables/blocks/crack_trapdoor.json
 db132c2492fd5810a29f6d50e1731c20686b550d data/tutorialmod/loot_tables/blocks/crack_door.json
 7d98f180cfba51a06ea19c971c71a4669287c32a data/tutorialmod/loot_tables/blocks/crack_fence_gate.json

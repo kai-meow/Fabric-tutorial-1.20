@@ -44,5 +44,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.EVIDENCE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.CRACK_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CRACK_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CRACK_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CRACK_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CRACK_HOE, Models.HANDHELD);
     }
 }

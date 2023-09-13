@@ -23,6 +23,12 @@ public class ModItemGroups {
                         entries.add(ModItems.EVIDENCE);
                         entries.add(ModItems.STUPID_GUN);
 
+                        entries.add(ModItems.CRACK_SWORD);
+                        entries.add(ModItems.CRACK_PICKAXE);
+                        entries.add(ModItems.CRACK_AXE);
+                        entries.add(ModItems.CRACK_SHOVEL);
+                        entries.add(ModItems.CRACK_HOE);
+
                         entries.add(ModBlocks.CRACK_BLOCK);
                         entries.add(ModBlocks.RAW_CRACK_BLOCK);
 

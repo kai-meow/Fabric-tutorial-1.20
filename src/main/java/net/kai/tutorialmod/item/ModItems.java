@@ -5,8 +5,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.kai.tutorialmod.TutorialMod;
 import net.kai.tutorialmod.item.custom.MetalDetectorItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -24,6 +23,24 @@ public class ModItems {
 
     public static final Item STUPID_GUN = registerItem("stupid_gun",
             new Item(new FabricItemSettings().maxCount(1)));
+
+
+
+    public static final Item CRACK_PICKAXE = registerItem("crack_pickaxe",
+            new PickaxeItem(ModToolMaterial.CRACK, 2, 2f, new FabricItemSettings()));
+
+    public static final Item CRACK_AXE = registerItem("crack_axe",
+            new AxeItem(ModToolMaterial.CRACK, 8, 1f, new FabricItemSettings()));
+
+    public static final Item CRACK_SHOVEL = registerItem("crack_shovel",
+            new ShovelItem(ModToolMaterial.CRACK, 0, 0f, new FabricItemSettings()));
+
+    public static final Item CRACK_SWORD = registerItem("crack_sword",
+            new SwordItem(ModToolMaterial.CRACK, 10, 2f, new FabricItemSettings()));
+
+    public static final Item CRACK_HOE = registerItem("crack_hoe",
+            new HoeItem(ModToolMaterial.CRACK, 0, 0f, new FabricItemSettings()));
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){ //adicionar os itens na aba de ingredientes do creative
         entries.add(CRACK);
