@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.kai.tutorialmod.TutorialMod;
 import net.kai.tutorialmod.item.custom.MetalDetectorItem;
+import net.kai.tutorialmod.item.custom.ModArmorItem;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -42,8 +43,9 @@ public class ModItems {
             new HoeItem(ModToolMaterial.CRACK, 0, 0f, new FabricItemSettings()));
 
 
+    //to have status effects, one piece of the set should be a ModArmorItem. putting it on all wastes resources
     public static final Item CRACK_HELMET = registerItem("crack_helmet",
-            new ArmorItem(ModArmorMaterials.CRACK, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.CRACK, ArmorItem.Type.HELMET, new FabricItemSettings())); //its this one uwu
 
     public static final Item CRACK_CHESTPLATE = registerItem("crack_chestplate",
             new ArmorItem(ModArmorMaterials.CRACK, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
