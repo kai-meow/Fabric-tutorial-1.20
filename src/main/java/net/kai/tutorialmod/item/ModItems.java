@@ -42,6 +42,19 @@ public class ModItems {
             new HoeItem(ModToolMaterial.CRACK, 0, 0f, new FabricItemSettings()));
 
 
+    public static final Item CRACK_HELMET = registerItem("crack_helmet",
+            new ArmorItem(ModArmorMaterials.CRACK, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
+    public static final Item CRACK_CHESTPLATE = registerItem("crack_chestplate",
+            new ArmorItem(ModArmorMaterials.CRACK, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+
+    public static final Item CRACK_LEGGINGS = registerItem("crack_leggings",
+            new ArmorItem(ModArmorMaterials.CRACK, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+
+    public static final Item CRACK_BOOTS = registerItem("crack_boots",
+            new ArmorItem(ModArmorMaterials.CRACK, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){ //adicionar os itens na aba de ingredientes do creative
         entries.add(CRACK);
         entries.add(RAW_CRACK);

@@ -1,4 +1,4 @@
-// 1.20.1	2023-09-13T17:57:19.141767271	Tutorial mod/Tags for minecraft:block
+// 1.20.1	2023-09-16T19:42:46.94920206	Tutorial mod/Tags for minecraft:block
 f95b3ecadc99f0e547767e6443ddff9615c8e471 data/minecraft/tags/blocks/needs_iron_tool.json
 0562d75755560237f334202df18547bd0ffa1c7f data/minecraft/tags/blocks/needs_diamond_tool.json
 5bcbe3790d8a3682efb5aa5fd249ccb4520d970b data/minecraft/tags/blocks/fences.json
@@ -7,5 +7,5 @@ f95b3ecadc99f0e547767e6443ddff9615c8e471 data/minecraft/tags/blocks/needs_iron_t
 36b7102704339a8e90a37e1f3f9754718dd4373e data/minecraft/tags/blocks/needs_stone_tool.json
 2a115675af60a2726609e804287afdc932db85ce data/minecraft/tags/blocks/mineable/pickaxe.json
 d981e1e493850b5b7d331cf444bea451ee43a194 data/minecraft/tags/blocks/fence_gates.json
-95fde4d5d8b2296c1209de9210e595fedab3b466 data/minecraft/tags/blocks/walls.json
 5de6fb1f206c91be6c7493dc99fdbec388ba9a3f data/fabric/tags/blocks/needs_tool_level_5.json
+95fde4d5d8b2296c1209de9210e595fedab3b466 data/minecraft/tags/blocks/walls.json

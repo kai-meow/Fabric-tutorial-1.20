@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:crack_helmet",
+    "tutorialmod:crack_chestplate",
+    "tutorialmod:crack_leggings",
+    "tutorialmod:crack_boots"
+  ]
+}

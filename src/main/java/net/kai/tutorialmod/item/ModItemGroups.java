@@ -29,6 +29,11 @@ public class ModItemGroups {
                         entries.add(ModItems.CRACK_SHOVEL);
                         entries.add(ModItems.CRACK_HOE);
 
+                        entries.add(ModItems.CRACK_HELMET);
+                        entries.add(ModItems.CRACK_CHESTPLATE);
+                        entries.add(ModItems.CRACK_LEGGINGS);
+                        entries.add(ModItems.CRACK_BOOTS);
+
                         entries.add(ModBlocks.CRACK_BLOCK);
                         entries.add(ModBlocks.RAW_CRACK_BLOCK);
 

@@ -7,6 +7,7 @@ import net.kai.tutorialmod.item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -50,5 +51,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CRACK_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.CRACK_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.CRACK_HOE, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.CRACK_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.CRACK_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.CRACK_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.CRACK_BOOTS));
     }
 }
